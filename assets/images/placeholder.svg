@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A3525" />
+      <stop offset="50%" stop-color="#2E5A36" />
+      <stop offset="100%" stop-color="#1B3822" />
+    </linearGradient>
+    <pattern id="pattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 0 20 L 20 0 L 40 20 L 20 40 Z" fill="none" stroke="rgba(217, 154, 61, 0.15)" stroke-width="1.5" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)" />
+  <rect width="100%" height="100%" fill="url(#pattern)" />
+  <g transform="translate(400, 220)" text-anchor="middle">
+    <!-- Landmark Icon -->
+    <circle cx="0" cy="-40" r="45" fill="rgba(217, 154, 61, 0.25)" stroke="#D49A3D" stroke-width="2.5" />
+    <path d="M -15 -30 L 0 -60 L 15 -30 Z M -20 -25 L 20 -25 L 20 -15 L -20 -15 Z" fill="#FDFBF7" />
+    <!-- Text -->
+    <text y="45" font-family="'Prompt', sans-serif" font-size="28" font-weight="600" fill="#FDFBF7" letter-spacing="1">Maha Sarakham Travel Guide</text>
+    <text y="80" font-family="'Sarabun', sans-serif" font-size="18" fill="#D49A3D">ท่องเที่ยวสารคราม ดินแดนพุทธมณฑลอีสาน</text>
+  </g>
+</svg>
+
